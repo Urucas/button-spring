@@ -1,0 +1,37 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+<script src="../bower_components/impulse/impulse.min.js"></script>
+
+<polymer-element name="button-spring" attributes="id class onclick value scale tension damping">
+  <template>
+		<style>
+		.button-spring {
+			color:#529690;
+			background: #7bc6bf;
+			border:none;
+			padding: 12px 35px;
+			cursor:pointer;
+		}
+		</style>
+		<button id="{{id}}" class="button-spring {{class}}" onclick="{{onclick}}">{{value}}</button>
+  </template>
+	<script>
+    Polymer('button-spring', {
+			scale: 0.8,
+			tension: 100,
+			damping: 10,
+			ready: function() {
+				var obj = this.$;
+				var el = obj[this.id];
+				var ball = Impulse(el).style('scale', function(scale) { return scale });
+				var scale = this.scale;
+				var tension = this.tension;
+				var damping = this.damping;
+				el.addEventListener('click', function(){
+					ball.spring({ tension: tension, damping: damping }).from(scale, scale).to(1, 1).start();
+				}, false);
+			}
+    });
+  </script>
+</polymer-element>
+
