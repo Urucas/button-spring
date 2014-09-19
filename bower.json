@@ -1,0 +1,33 @@
+{
+  "name": "button-spring",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Urucas/button-spring",
+  "authors": [
+    "Urucas <hello@urucas.com>"
+  ],
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "polymer",
+    "polyfills",
+    "button",
+    "html5",
+    "js",
+    "javascript"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "impulse": "~0.0.6",
+    "polymer": "~0.4.1",
+    "jquery": "~2.1.1"
+  }
+}
