@@ -1,0 +1,42 @@
+{
+  "name": "impulse",
+  "version": "0.0.6",
+  "dependencies": {},
+  "homepage": "https://github.com/luster-io/physics",
+  "authors": [
+    "Zach Smith <x.coder.zach@gmail.com>"
+  ],
+  "description": "Impulse physics animations.",
+  "main": "impulse.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "physics",
+    "animation",
+    "dynamic",
+    "interaction",
+    "touch"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.0.6",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.6",
+    "commit": "94e6afc38a0926a77d68d7af6a876e7a95c39359"
+  },
+  "_source": "git://github.com/luster-io/impulse.git",
+  "_target": "~0.0.6",
+  "_originalSource": "impulse",
+  "_direct": true
+}
