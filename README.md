@@ -11,7 +11,8 @@ Import polymer element into yor html
 <link rel="import" href="/elements/button-spring.html">
 ```
 
-Set the flip attribute: [horizontal | vertical]
+Insert the webcomponent on your page,
+
 ```html
 <button-spring class="myButton" value="Aceptar" onclick="console.log('button-spring pressed')"></button-spring>
 ```
