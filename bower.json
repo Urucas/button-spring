@@ -15,7 +15,9 @@
     "button",
     "html5",
     "js",
-    "javascript"
+    "javascript",
+		"web-components",
+		"webcomponents"
   ],
   "license": "MIT",
   "ignore": [
